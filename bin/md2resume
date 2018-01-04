@@ -10,7 +10,7 @@ $consoleTemplatePath = $baseDir . '/src/Resume/Templates';
 // When md2resume is installed with composer, it resides in the a
 // 'markdown-resume' subdirectory of the 'vendor' directory, so we need to
 // walk up a few folders to find 'autoload.php'.
-$autoloadPath = basename($baseDir) === 'markdown-resume'
+$autoloadPath = basename($baseDir) === 'markdown-resume-master'
               ? realpath($baseDir . '/../../autoload.php')
               : $baseDir . '/vendor/autoload.php';
 
